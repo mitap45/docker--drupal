@@ -1,0 +1,7 @@
+mtp_emak.article_list:
+  path: '/mtp/articles'
+  defaults:
+    _controller: '\Drupal\mtp_emak\Controller\ArticleController::page'
+    _title: 'Our custom article list'
+  requirements:
+    _permission: 'access content'
